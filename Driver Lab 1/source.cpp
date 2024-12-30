@@ -14,7 +14,7 @@ int main() {
     double a = 1.0;
     double X = -1.0;
     double step = 0.1;
-    double end = 1.5;
+    double end = 1.0;
 
     while (X <= end) {
         double result = ComputeEquation(a, X); // Передаем a в функцию
